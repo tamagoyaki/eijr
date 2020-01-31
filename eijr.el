@@ -9,7 +9,7 @@
     (progn
       (delete-region (point-min)
 		     (search-forward
-		      "・データ提供 : EDP ※データの転載は禁じられています。"))
+		      "ページ下部  / 次ページへ"))
       (delete-blank-lines)
       (goto-char (point-max))
       (let ((pos (search-backward "＊データの転載は禁じられています。" nil t)))
